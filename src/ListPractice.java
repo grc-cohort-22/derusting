@@ -1,6 +1,7 @@
+import java.util.List;
+import java.util.ArrayList;
+
 public class ListPractice {
-
-
   public static void main(String[] args) {
     // Create an empty ArrayList of Strings and assign it to a variable of type List
 
@@ -32,5 +33,27 @@ public class ListPractice {
      * Otherwise, if you're iterating the in the conventional order and don't need the
      * index values a for-each loop is cleaner.
      */
+    List<String> stringList = new ArrayList<>();
+    stringList.add("Ryan");
+    stringList.add("Hannah");
+    stringList.add("Emmy");
+
+    System.out.println(stringList.get(1));
+    
+    stringList.set(1, "Shannon");
+
+    stringList.add(0, "Abby");
+
+    System.out.println(stringList.contains("Abby"));
+
+    for (int i = 0; i < stringList.size(); i++){
+      System.out.println("index " + i + ": " + stringList.get(i));
+    }
+
+    stringList.sort(null);
+
+    for (String name : stringList){
+      System.out.println(name);
+    }
   }
 }

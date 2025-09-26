@@ -17,6 +17,24 @@ public class Person {
 
   // Implement the below public instance method "birthYear"
   // There should NOT be any print statement in this method.
+
+
+  public String name;
+  private int age;
+  
+  public Person(String full_name, int num_age){
+    this.name = full_name;
+    this.age = num_age;
+  }
+
+  @Override
+  public String toString(){
+    return "name: " + this.name + "\nage: " + this.age;
+  }
+
+  public int birthYear(int year){
+    return year - this.age;
+  }
   /**
    * birthYear returns the year the person was born.
    * 
@@ -47,6 +65,28 @@ public class Person {
     // as the argument.
 
     // In a separate statement, print the local variable holding the birth year.
+    int currentYear = 2025;
+
+    int age = 29;
+    String name = "Ryan Mills";
+
+    Person newPerson = new Person(name, age);
+
+    System.out.println("person1: \n" + newPerson.toString());
+
+    int age2 = 22;
+    String name2 = "Hannah Banana";
+
+    Person newPerson2 = new Person(name2, age2);
+
+    System.out.println("person2: \n" + newPerson2.toString());
+
+    String person1Name = newPerson.name;
+
+    int birthYear1 = newPerson.birthYear(currentYear);
+
+    System.out.println("\npersonName: " + person1Name + "\nbirth: " + birthYear1);
+
 
     /**
      * Terminology!

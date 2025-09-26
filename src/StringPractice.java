@@ -1,3 +1,6 @@
+import java.util.List;
+import java.util.ArrayList;
+
 public class StringPractice {
   public static void main(String[] args) {
     // Create a string with at least 5 characters and assign it to a variable
@@ -28,5 +31,27 @@ public class StringPractice {
      * 
      * We use == when comparing primitives (e.g. int or char).
      */
+    String name = "Rumplestiltskin";
+
+    System.out.println(name.length());
+
+    name += " sucks";
+
+    System.out.println(name.charAt(3));
+
+    System.out.println(name.contentEquals("abc"));
+
+    for (char letter : name.toCharArray()){
+      System.out.println(letter);
+    }
+
+    List<String> listString = new ArrayList<>();
+    listString.add("falihgaiegh");
+    listString.add("qiwueptioew");
+    listString.add("cxnmvzxmcvn");
+
+    String longString = listString.toArray().toString();
+
+    System.out.println(longString == name);
   }
 }

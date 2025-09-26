@@ -1,3 +1,6 @@
+import java.util.ArrayList;
+import java.util.List;
+
 public class ArrayPractice {
   public static void main(String[] args) {
     // Create an array of Strings of size 4
@@ -18,5 +21,24 @@ public class ArrayPractice {
      * 
      * Arrays start at index 0
      */
+
+     List<String> stringArr = new ArrayList<>();
+
+     stringArr.add("Ryan");
+     stringArr.add("Shannon");
+     stringArr.add("Hannah");
+     stringArr.add("Emmy");
+
+     String string2 = stringArr.get(2);
+     int string2Size = string2.length();
+
+     for (int i = 0; i < stringArr.size(); i++){
+      System.out.println("traditional: " + stringArr.get(i));
+     }
+
+     for (String name : stringArr){
+      System.out.println("for-each: " + name);
+     }
+
   }
 }

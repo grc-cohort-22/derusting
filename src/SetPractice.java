@@ -1,3 +1,6 @@
+import java.util.Set;
+import java.util.HashSet;
+
 public class SetPractice {
   public static void main(String[] args) {
     // Create a HashSet of Strings and assign it to a variable of type Set
@@ -25,5 +28,22 @@ public class SetPractice {
      * 
      * Also remember that sets do NOT have duplicates.
      */
+
+    Set<String> stringSet = new HashSet<>();
+
+    stringSet.add("Ryan");
+    stringSet.add("Hannah");
+    stringSet.add("Emmy");
+
+    System.out.println(stringSet.contains("Ryan"));
+
+    stringSet.remove("Ryan");
+
+    System.out.println(stringSet.size());
+
+    for (String name : stringSet){
+      System.out.println(name);
+    }
+    
   }
 }

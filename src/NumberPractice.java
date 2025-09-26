@@ -20,6 +20,18 @@ public class NumberPractice {
      * Example: 
      * 7 / 3 = 2 when performing int division
      */
+    float negValue = -1;
+    int posValue = 1;
+    int remainder = posValue % 3;
 
+    // boolean isEven = posValue % 2 == 0 ? true : false;
+    String isEven = null;
+    if (posValue % 2 == 0){
+      isEven = "even";
+    } else {
+      isEven = "odd";
+    }
+
+    int divisionResult = posValue / remainder;
   }
 }

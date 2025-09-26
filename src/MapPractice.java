@@ -1,4 +1,6 @@
-
+import java.util.Map;
+import java.security.KeyStore.Entry;
+import java.util.HashMap;
 
 public class MapPractice {
   public static void main(String[] args) {
@@ -39,5 +41,34 @@ public class MapPractice {
      * Example: If you want to hold the student ID numbers of everyone in a course,
      * and you don't care about any ordering.
      */
+
+    Map<String, Integer> stringIntMap = new HashMap<>();
+    stringIntMap.put("Ryan", 1);
+    stringIntMap.put("Hannah", 2);
+    stringIntMap.put("Emmy", 3);
+
+    System.out.println(stringIntMap.get("Ryan"));
+
+    System.out.println(stringIntMap.size());
+
+    stringIntMap.put("Ryan", 100);
+
+    System.out.println(stringIntMap.containsKey("Ryan"));
+
+    System.out.println(stringIntMap.containsValue(3));
+
+    for (String name : stringIntMap.keySet()){
+      System.out.println(name);
+    }
+
+    for (int values : stringIntMap.values()){
+      System.out.println(values);
+    }
+
+    for (Map.Entry<String, Integer> keySet : stringIntMap.entrySet()){
+      System.out.println(keySet);
+    }
+
+
   }
 }
