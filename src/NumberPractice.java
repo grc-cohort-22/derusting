@@ -17,8 +17,6 @@ public class NumberPractice {
       System.out.println("even");
     }
       
-
-
     // Divide the number by another number using integer division
 
     /*
@@ -28,6 +26,7 @@ public class NumberPractice {
      * Example: 
      * 7 / 3 = 2 when performing int division
      */
-
+    float division = posValue / negValue;
+    System.out.println(division);
   }
 }
