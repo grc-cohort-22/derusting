@@ -1,29 +1,48 @@
-
+import java.util.HashMap;
+import java.util.Map;
 
 public class MapPractice {
   public static void main(String[] args) {
     // Create a HashMap with String keys and Integer values and
     // assign it to a variable of type Map
-
+    HashMap<String, Integer> foods = new HashMap<>();
     // Put 3 different key/value pairs in the Map
     // (it's OK to do this one-by-one)
-
+    foods.put("hot dog", 1);
+    foods.put("sushi", 2);
+    foods.put("pizza", 3);
+    foods.put("cake", 4);
+    System.out.println();
     // Get the value associated with a given key in the Map
-
+    System.out.println(foods.get("sushi"));
+    System.out.println();
     // Find the size (number of key/value pairs) of the Map
-
+    System.out.println(foods.size());
+    System.out.println();
     // Replace the value associated with a given key (the size of the Map shoukld not change)
-
+    foods.put("hot dog", 2);
+    System.out.println(foods);
+    System.out.println();
     // Check whether the Map contains a given key
-
+    System.out.println(foods.containsKey("sushi"));
+    System.out.println();
     // Check whether the Map contains a given value
-
+    System.out.println(foods.containsValue(4));
+    System.out.println();
     // Iterate over the keys of the Map, printing each key
-
+    for(String food : foods.keySet()){
+      System.out.println(food);
+    }
+    System.out.println();
     // Iterate over the values of the map, printing each value
-
+    for(Integer food : foods.values()){
+      System.out.println(food);
+    }
+    System.out.println();
     // Iterate over the entries in the map, printing each key and value
-
+    for(Map.Entry<String, Integer> foodInventory : foods.entrySet()){
+      System.out.println(foodInventory);
+    }
     /*
      * Usage tip!
      * 
