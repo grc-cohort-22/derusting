@@ -9,13 +9,14 @@ public class StringPractice {
 
     // Concatenate (add) two strings together and reassign the result
     String word2 = "November";
-    String newWord = word + word2;
+    String newWord = word + " " + word2;
     System.out.println(newWord);
     
     // Find the value of the character at index 3
     System.out.println(newWord.charAt(3));
 
     // Check whether the string contains a given substring (i.e. does the string have "abc" in it?)
+
 
     // Iterate over the characters of the string, printing each one on a separate line
 
