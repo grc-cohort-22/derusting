@@ -35,6 +35,9 @@ public class MapPractice {
     }
 
     // Iterate over the values of the map, printing each value
+    for (int v : dict.values()){
+      System.out.println(v);
+    }
 
     // Iterate over the entries in the map, printing each key and value
 
