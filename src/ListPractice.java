@@ -25,7 +25,7 @@ public class ListPractice {
     System.out.println(list);
 
     // Check whether the list contains a certain string
-    
+    System.out.println(list.contains("Hey"));
 
     // Iterate over the list using a traditional for-loop.
     // Print each index and value on a separate line
