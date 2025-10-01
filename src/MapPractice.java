@@ -1,9 +1,10 @@
-
+import java.util.*;
 
 public class MapPractice {
   public static void main(String[] args) {
     // Create a HashMap with String keys and Integer values and
     // assign it to a variable of type Map
+    Map<String, Integer> dict = new HashMap<>();
 
     // Put 3 different key/value pairs in the Map
     // (it's OK to do this one-by-one)
