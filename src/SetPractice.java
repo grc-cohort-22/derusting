@@ -1,17 +1,30 @@
+import java.util.HashSet;
+import java.util.Set;
+
 public class SetPractice {
   public static void main(String[] args) {
     // Create a HashSet of Strings and assign it to a variable of type Set
+    Set<String> words = new HashSet<>();
 
     // Add 3 elements to the set
     // (It's OK to do it one-by-one)
-
+    words.add("The");
+    words.add("Fantastic");
+    words.add("Four");
+    
     // Check whether the Set contains a given String
+    System.out.println(words.contains("Fantastic"));
 
     // Remove an element from the Set
+    words.remove("Four");
 
     // Get the size of the Set
+    System.out.println(words.size());
 
     // Iterate over the elements of the Set, printing each one on a separate line
+    for (String word : words) {
+      System.out.println(word);
+    }
 
     /*
      * Warning!
