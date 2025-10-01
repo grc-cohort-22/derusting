@@ -30,6 +30,9 @@ public class MapPractice {
     System.out.println(dict.containsValue(9));
 
     // Iterate over the keys of the Map, printing each key
+    for (String str : dict.keySet()){
+      System.out.println(str);
+    }
 
     // Iterate over the values of the map, printing each value
 

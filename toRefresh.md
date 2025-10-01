@@ -17,3 +17,4 @@ As you work through this exercise, write down anything that you needed to look u
 - .put() for Maps
 - .get() access an item in HashMap
 - HashMap ordering
+- iterate a HashMap 
