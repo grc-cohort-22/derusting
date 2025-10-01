@@ -23,7 +23,7 @@ public class StringPractice {
     } else {
       System.out.println("False");
     }
-
+    
     // Iterate over the characters of the string, printing each one on a separate line
     for (int i = 0; i < newWord.length(); i++){
       char c = newWord.charAt(i);
@@ -46,6 +46,9 @@ public class StringPractice {
     System.out.println(joinedString);
 
     // Check whether two strings are equal
+    String s = list.get(1);
+    String s2 = list.get(2);
+    System.out.println(s.equals(s2));
 
     /*
      * Reminder!
