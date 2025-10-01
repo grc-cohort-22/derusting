@@ -20,6 +20,8 @@ public class MapPractice {
     System.out.println(dict.size());
 
     // Replace the value associated with a given key (the size of the Map shoukld not change)
+    dict.replace("Pooh", 9);
+    System.out.println(dict);
 
     // Check whether the Map contains a given key
 
