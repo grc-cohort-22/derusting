@@ -17,6 +17,7 @@ public class MapPractice {
     System.out.println(dict.get("Eeyore"));
 
     // Find the size (number of key/value pairs) of the Map
+    System.out.println(dict.size());
 
     // Replace the value associated with a given key (the size of the Map shoukld not change)
 
