@@ -5,6 +5,8 @@ public class NumberPractice {
     System.out.println(num);
 
     // Create an int with a positive value and assign it to a variable
+    int positiveNum = 5;
+    System.out.println(positiveNum);
 
     // Use the modulo % operator to find the remainder when the int is divided by 3
 
