@@ -7,6 +7,10 @@ public class SetPractice {
 
     // Add 3 elements to the set
     // (It's OK to do it one-by-one)
+    set.add("Pen");
+    set.add("Pencil");
+    set.add("Eraser");
+    System.out.println(set);
 
     // Check whether the Set contains a given String
 
