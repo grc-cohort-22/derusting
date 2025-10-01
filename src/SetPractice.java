@@ -13,6 +13,7 @@ public class SetPractice {
     System.out.println(set);
 
     // Check whether the Set contains a given String
+      System.out.println(set.contains("Pen"));
 
     // Remove an element from the Set
 
