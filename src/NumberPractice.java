@@ -22,6 +22,7 @@ public class NumberPractice {
     }
 
     // Divide the number by another number using integer division
+    System.out.println(positiveNum / 5);
 
     /*
      * Reminder!
