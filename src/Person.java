@@ -49,6 +49,7 @@ public class Person {
     Person p2 = new Person("Ron Weasley", 28);
 
     // Print the first person
+    System.out.println(p1);
 
     // Print the second person
 
