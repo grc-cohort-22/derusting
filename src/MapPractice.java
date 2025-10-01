@@ -8,6 +8,10 @@ public class MapPractice {
 
     // Put 3 different key/value pairs in the Map
     // (it's OK to do this one-by-one)
+    dict.put("Pooh", 1);
+    dict.put("Tigger", 3);
+    dict.put("Eeyore", 6);
+    System.out.println(dict);
 
     // Get the value associated with a given key in the Map
 

@@ -14,3 +14,4 @@ As you work through this exercise, write down anything that you needed to look u
 - .join() to join strings seperated by commas
 - .equals() syntax
 - iterate a HashSet
+- .put() for Maps
