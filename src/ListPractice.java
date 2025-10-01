@@ -21,8 +21,11 @@ public class ListPractice {
     System.out.println(list);
 
     // Insert a new element at index 0 (the length of the list will change)
+    list.add(0, "Good night");
+    System.out.println(list);
 
     // Check whether the list contains a certain string
+    
 
     // Iterate over the list using a traditional for-loop.
     // Print each index and value on a separate line
