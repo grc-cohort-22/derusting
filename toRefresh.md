@@ -7,3 +7,4 @@ As you work through this exercise, write down anything that you needed to look u
 - .get() to find element at index
 - .set() to replace an element at index
 - .size() to get number of elements in list
+- Collections.sort()

@@ -35,6 +35,8 @@ public class ListPractice {
     }
 
     // Sort the list using the Collections library
+    Collections.sort(list);
+    System.out.println(list);
 
     // Iterate over the list using a for-each loop
     // Print each value on a second line
