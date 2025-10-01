@@ -34,6 +34,10 @@ public class Person {
    * @return The year the person was born
    */
   // (create the instance method here)
+    public int birthYear(int currentYear) {
+      int birthYear = currentYear - age;
+      return birthYear;
+    }
 
 
   public static void main(String[] args) {
