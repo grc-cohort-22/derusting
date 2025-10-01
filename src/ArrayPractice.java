@@ -10,12 +10,13 @@ public class ArrayPractice {
     array[1] = "Rice";
     array[2] = "Pasta";
     array[3] = "Bread";
-    System.out.println(array[0]);
-    System.out.println(array[1]);
-    System.out.println(array[2]);
-    System.out.println(array[3]);
+    // System.out.println(array[0]);
+    // System.out.println(array[1]);
+    // System.out.println(array[2]);
+    // System.out.println(array[3]);
 
     // Get the value of the array at index 2
+    System.out.println(array[2]);
 
     // Get the length of the array
 
