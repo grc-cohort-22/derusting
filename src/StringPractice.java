@@ -16,7 +16,11 @@ public class StringPractice {
     System.out.println(newWord.charAt(3));
 
     // Check whether the string contains a given substring (i.e. does the string have "abc" in it?)
-
+    if (newWord.contains("Nov")){
+      System.out.println("True");
+    } else {
+      System.out.println("False");
+    }
 
     // Iterate over the characters of the string, printing each one on a separate line
 
