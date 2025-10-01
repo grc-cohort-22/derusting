@@ -46,6 +46,7 @@ public class Person {
 
     // Create another instance of Person with a different name and age and
     // assign it to a different variable
+    Person p2 = new Person("Ron Weasley", 28);
 
     // Print the first person
 
