@@ -10,3 +10,4 @@ As you work through this exercise, write down anything that you needed to look u
 - Collections.sort()
 - Arrays vs Lists
 - traditional for-loop for arrays
+- charAt() to return the character at index

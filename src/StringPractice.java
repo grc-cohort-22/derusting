@@ -23,6 +23,10 @@ public class StringPractice {
     }
 
     // Iterate over the characters of the string, printing each one on a separate line
+    for (int i = 0; i < newWord.length(); i++){
+      char c = newWord.charAt(i);
+      System.out.println(c);
+    }
 
     // Create an ArrayList of Strings and assign it to a variable
 
