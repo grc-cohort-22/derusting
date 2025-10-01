@@ -7,6 +7,10 @@ public class ListPractice {
     List<String> list = new ArrayList<>();
 
     // Add 3 elements to the list (OK to do one-by-one)
+    list.add("Hi");
+    list.add("Hello");
+    list.add("Good morning");
+    System.out.println(list);
 
     // Print the element at index 1
 
