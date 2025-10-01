@@ -40,6 +40,9 @@ public class ListPractice {
 
     // Iterate over the list using a for-each loop
     // Print each value on a second line
+    for (String str : list){
+      System.out.println(str);
+    }
 
     /*
      * Usage tip!
