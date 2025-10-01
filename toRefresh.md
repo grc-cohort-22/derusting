@@ -19,3 +19,4 @@ As you work through this exercise, write down anything that you needed to look u
 - HashMap ordering
 - iterate a HashMap 
 - print both keys and values in Hashmap 
+- creating a constructor 

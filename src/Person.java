@@ -9,13 +9,15 @@ public class Person {
     public String name;
     private int age;
 
-
   // Create a constructor that takes the name and age of the person
   // and assigns it to the instance variables
-
+    public Person(String name, int age) {
+      this.name = name;
+      this.age = age;
+    }
 
   // Create a toString method that gives the name and age of the person
-
+    
 
   // Implement the below public instance method "birthYear"
   // There should NOT be any print statement in this method.
