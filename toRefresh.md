@@ -11,3 +11,4 @@ As you work through this exercise, write down anything that you needed to look u
 - Arrays vs Lists
 - traditional for-loop for arrays
 - charAt() to return the character at index
+- .join() to join strings seperated by commas
