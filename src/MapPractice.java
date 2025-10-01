@@ -27,6 +27,7 @@ public class MapPractice {
     System.out.println(dict.containsKey("Tigger"));
 
     // Check whether the Map contains a given value
+    System.out.println(dict.containsValue(9));
 
     // Iterate over the keys of the Map, printing each key
 
