@@ -9,3 +9,4 @@ As you work through this exercise, write down anything that you needed to look u
 - .size() to get number of elements in list
 - Collections.sort()
 - Arrays vs Lists
+- traditional for-loop for arrays

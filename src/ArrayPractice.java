@@ -22,6 +22,9 @@ public class ArrayPractice {
     System.out.println(array.length);
 
     // Iterate over the array using a traditional for loop and print out each item
+    for (int i = 0; i < array.length; i++){
+      System.out.println(array[i]);
+    }
 
     // Iterate over the array using a for-each loop and print out each item
 
