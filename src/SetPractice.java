@@ -20,6 +20,7 @@ public class SetPractice {
     System.out.println(set);
 
     // Get the size of the Set
+    System.out.println(set.size());
 
     // Iterate over the elements of the Set, printing each one on a separate line
 
