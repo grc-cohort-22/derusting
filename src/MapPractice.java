@@ -14,6 +14,7 @@ public class MapPractice {
     System.out.println(dict);
 
     // Get the value associated with a given key in the Map
+    System.out.println(dict.get("Eeyore"));
 
     // Find the size (number of key/value pairs) of the Map
 
