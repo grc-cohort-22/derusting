@@ -8,7 +8,10 @@ public class StringPractice {
     System.out.println(word.length());
 
     // Concatenate (add) two strings together and reassign the result
-
+    String word2 = "November";
+    String newWord = word + word2;
+    System.out.println(newWord);
+    
     // Find the value of the character at index 3
 
     // Check whether the string contains a given substring (i.e. does the string have "abc" in it?)
