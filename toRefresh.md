@@ -6,3 +6,4 @@ As you work through this exercise, write down anything that you needed to look u
 - Syntax to create empty ArrayList/List
 - .get() to find element at index
 - .set() to replace an element at index
+- .size() to get number of elements in list
