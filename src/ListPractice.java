@@ -17,6 +17,8 @@ public class ListPractice {
 
     // Replace the element at index 1 with a new value
     // (Do not insert a new value. The length of the list should not change)
+    list.set(1,"Hey");
+    System.out.println(list);
 
     // Insert a new element at index 0 (the length of the list will change)
 
