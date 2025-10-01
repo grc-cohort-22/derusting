@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 public class StringPractice {
   public static void main(String[] args) {
     // Create a string with at least 5 characters and assign it to a variable
@@ -29,6 +31,7 @@ public class StringPractice {
     }
 
     // Create an ArrayList of Strings and assign it to a variable
+    ArrayList<String> list = new ArrayList<>();
 
     // Add multiple strings to the List (OK to do one-by-one)
 
