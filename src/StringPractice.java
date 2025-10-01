@@ -2,8 +2,10 @@ public class StringPractice {
   public static void main(String[] args) {
     // Create a string with at least 5 characters and assign it to a variable
     String word = "October";
+    System.out.println(word);
 
     // Find the length of the string
+    System.out.println(word.length());
 
     // Concatenate (add) two strings together and reassign the result
 
