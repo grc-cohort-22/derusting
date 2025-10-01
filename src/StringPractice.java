@@ -18,12 +18,14 @@ public class StringPractice {
     System.out.println(newWord.charAt(3));
 
     // Check whether the string contains a given substring (i.e. does the string have "abc" in it?)
-    if (newWord.contains("Nov")){
-      System.out.println("True");
-    } else {
-      System.out.println("False");
-    }
-    
+    // if (newWord.contains("Nov")){
+    //   System.out.println("True");
+    // } else {
+    //   System.out.println("False");
+    // }
+
+    System.out.println(newWord.contains("Nov"));
+
     // Iterate over the characters of the string, printing each one on a separate line
     for (int i = 0; i < newWord.length(); i++){
       char c = newWord.charAt(i);
