@@ -18,3 +18,4 @@ As you work through this exercise, write down anything that you needed to look u
 - .get() access an item in HashMap
 - HashMap ordering
 - iterate a HashMap 
+- print both keys and values in Hashmap 

@@ -40,6 +40,9 @@ public class MapPractice {
     }
 
     // Iterate over the entries in the map, printing each key and value
+    for (String s : dict.keySet()){
+      System.out.println("Key: " + s + ", Value: " + dict.get(s));
+    }
 
     /*
      * Usage tip!
