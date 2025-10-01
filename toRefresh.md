@@ -13,3 +13,4 @@ As you work through this exercise, write down anything that you needed to look u
 - charAt() to return the character at index
 - .join() to join strings seperated by commas
 - .equals() syntax
+- iterate a HashSet
