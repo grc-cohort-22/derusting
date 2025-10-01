@@ -34,6 +34,11 @@ public class StringPractice {
     ArrayList<String> list = new ArrayList<>();
 
     // Add multiple strings to the List (OK to do one-by-one)
+    list.add("Blue");
+    list.add("White");
+    list.add("Green");
+    list.add("Red");
+    System.out.println(list);
 
     // Join all of the strings in the list together into a single string separated by commas
     // Use a built-in method to achieve this instead of using a loop
