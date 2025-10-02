@@ -21,5 +21,18 @@ public class NumberPractice {
      * 7 / 3 = 2 when performing int division
      */
 
+    //float num1 = -7;
+    int num2 = 6;
+
+    System.out.println(num2 % 3);
+    
+    if (num2 % 2 == 0) {
+      System.out.println("Even");
+    }else{
+      System.out.println("Odd");
+    }
+
+    System.out.println(num2 / 4);
+
   }
 }

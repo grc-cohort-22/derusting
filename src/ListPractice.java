@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 public class ListPractice {
 
 
@@ -32,5 +34,29 @@ public class ListPractice {
      * Otherwise, if you're iterating the in the conventional order and don't need the
      * index values a for-each loop is cleaner.
      */
+
+    ArrayList<String> list = new ArrayList<>();
+
+    list.add("Orion");
+    list.add("Taryn");
+    list.add("Jameson");
+
+    System.out.println(list.get(1));
+
+    list.set(0, "Skyler");
+
+    System.out.println(list.contains("Taryn"));
+
+    for(String i : list){
+      System.out.println(i);
+    }
+
+    list.sort(null);
+
+    for(int i = 0 ; i < list.size() ; i++ ){
+      System.out.println(list.get(i));
+    }
+
+
   }
 }

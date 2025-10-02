@@ -1,4 +1,5 @@
-
+import java.util.HashMap;
+import java.util.Map;
 
 public class MapPractice {
   public static void main(String[] args) {
@@ -24,6 +25,39 @@ public class MapPractice {
 
     // Iterate over the entries in the map, printing each key and value
 
+    Map<String, Integer> mapo = new HashMap<>();
+
+    for(int i = 0; i < 3; i++){
+      String neww = "a";
+      for(int f = 0; f < i; f++){
+        neww += "a";
+      }
+      mapo.put(neww, i);
+    }
+
+    System.out.println(mapo.get("aa"));
+
+    System.out.println(mapo.size());
+
+    System.out.println(mapo.replace("aa", 7));
+
+    System.out.println(mapo.containsKey("aa"));
+
+    System.out.println(mapo.containsValue(7));
+
+    for(String key: mapo.keySet()){
+      System.out.print(key + ", ");
+    }
+
+    for(int value: mapo.values()){
+      System.out.print(value + ", ");
+    }
+
+    System.out.println(); //<br>
+
+    for(String set: mapo.keySet()){
+      System.out.println(set + ", " + mapo.get(set));
+    }
     /*
      * Usage tip!
      * 
@@ -39,5 +73,7 @@ public class MapPractice {
      * Example: If you want to hold the student ID numbers of everyone in a course,
      * and you don't care about any ordering.
      */
+
+
   }
 }

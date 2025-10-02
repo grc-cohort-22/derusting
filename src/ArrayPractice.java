@@ -1,3 +1,4 @@
+import java.util.Random;
 public class ArrayPractice {
   public static void main(String[] args) {
     // Create an array of Strings of size 4
@@ -18,5 +19,12 @@ public class ArrayPractice {
      * 
      * Arrays start at index 0
      */
+    int[] arr = new int[4];
+    Random rand = new Random();
+    for(int i = 0; i < 4; i++){
+        arr[i] = rand.nextInt(9)+1;
+    }
+    System.out.println(arr[2]);
+    System.out.println(arr.length);
   }
 }
