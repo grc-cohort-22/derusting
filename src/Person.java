@@ -56,12 +56,12 @@ public class Person {
 
     // Get the name of the first person and store it in a local variable
     String name1 = p1.name;
-    //System.out.println(name1);
+    System.out.println(name1);
 
     // Using the birthYear method, get the birth year of the first person
     // and store it in a local variable. Input the actual current year (e.g. 2025)
     // as the argument.
-    int age1 = p1.age;
+    //int age1 = p1.age; - don't need this
     int birthYear1 = p1.birthYear(2025);
 
     // In a separate statement, print the local variable holding the birth year.
