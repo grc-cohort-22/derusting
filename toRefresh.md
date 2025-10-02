@@ -21,3 +21,4 @@ As you work through this exercise, write down anything that you needed to look u
 - print both keys and values in Hashmap 
 - creating a constructor 
 - creating toString()
+- review Java OOP 
