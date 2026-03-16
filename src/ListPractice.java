@@ -20,7 +20,9 @@ public class ListPractice {
     System.out.println(numbers.contains("4"));
     // Iterate over the list using a traditional for-loop.
     // Print each index and value on a separate line
-
+    for (int i = 0; i < numbers.size(); i++) {
+      System.out.println(i + "\n" + numbers.get(i));
+    }
     // Sort the list using the Collections library
 
     // Iterate over the list using a for-each loop
