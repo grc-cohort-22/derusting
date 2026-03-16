@@ -10,14 +10,14 @@ public class ListPractice {
     numbers.add("2");
     numbers.add("3");
     // Print the element at index 1
-
+    System.out.println(numbers.get(1));
     // Replace the element at index 1 with a new value
     // (Do not insert a new value. The length of the list should not change)
-
+    numbers.set(1, "4");
     // Insert a new element at index 0 (the length of the list will change)
-
+    numbers.add(0, "0");
     // Check whether the list contains a certain string
-
+    System.out.println(numbers.contains("4"));
     // Iterate over the list using a traditional for-loop.
     // Print each index and value on a separate line
 
