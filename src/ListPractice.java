@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Collections;
 
 public class ListPractice {
 
@@ -24,10 +25,12 @@ public class ListPractice {
       System.out.println(i + "\n" + numbers.get(i));
     }
     // Sort the list using the Collections library
-
+    Collections.sort(numbers);
     // Iterate over the list using a for-each loop
     // Print each value on a second line
-
+    for (String number : numbers) {
+      System.out.println("\n" + number);
+    }
     /*
      * Usage tip!
      * 
