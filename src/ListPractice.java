@@ -1,11 +1,14 @@
-public class ListPractice {
+import java.util.ArrayList;
 
+public class ListPractice {
 
   public static void main(String[] args) {
     // Create an empty ArrayList of Strings and assign it to a variable of type List
-
+    ArrayList<String> numbers = new ArrayList<String>();
     // Add 3 elements to the list (OK to do one-by-one)
-
+    numbers.add("1");
+    numbers.add("2");
+    numbers.add("3");
     // Print the element at index 1
 
     // Replace the element at index 1 with a new value
