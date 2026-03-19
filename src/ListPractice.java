@@ -1,27 +1,51 @@
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
+
 public class ListPractice {
 
 
   public static void main(String[] args) {
     // Create an empty ArrayList of Strings and assign it to a variable of type List
+      ArrayList<String> list = new ArrayList<>();
 
     // Add 3 elements to the list (OK to do one-by-one)
+      list.add("s1");
+      list.add("s2");
+      list.add("s3");
 
     // Print the element at index 1
+      System.out.println(list.get(1));
 
     // Replace the element at index 1 with a new value
     // (Do not insert a new value. The length of the list should not change)
+      list.set(1, "s4");
 
     // Insert a new element at index 0 (the length of the list will change)
+      list.add(0, "s5");
 
     // Check whether the list contains a certain string
+      System.out.println(list.contains("s1")); //should be true
+
 
     // Iterate over the list using a traditional for-loop.
     // Print each index and value on a separate line
+      for (int i = 0; i < list.size(); i++) {
+        System.out.print("|  traditional print:" + list.get(i));
+      }
 
     // Sort the list using the Collections library
+          Collections.sort(list);
+          System.out.println();
+          System.out.print(list.toString());
+          System.out.println();
 
     // Iterate over the list using a for-each loop
     // Print each value on a second line
+        for (String s : list) {
+          System.out.println();
+          System.out.println(s);
+        }
 
     /*
      * Usage tip!
