@@ -1,18 +1,24 @@
+import java.util.HashSet;
+
 public class SetPractice {
   public static void main(String[] args) {
     // Create a HashSet of Strings and assign it to a variable of type Set
-
+    HashSet<String> hashes = new HashSet<String>();
     // Add 3 elements to the set
     // (It's OK to do it one-by-one)
-
+    hashes.add("un");
+    hashes.add("doi");
+    hashes.add("trei");
     // Check whether the Set contains a given String
-
+    System.out.println(hashes.contains("un"));
     // Remove an element from the Set
-
+    hashes.remove("un");
     // Get the size of the Set
-
+    System.out.println(hashes.size());
     // Iterate over the elements of the Set, printing each one on a separate line
-
+    for (String hash : hashes) {
+      System.out.println(hash);
+    }
     /*
      * Warning!
      * 

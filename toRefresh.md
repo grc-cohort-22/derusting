@@ -6,3 +6,5 @@ As you work through this exercise, write down anything that you needed to look u
 - Collections library
 - Java Arrays
 - String.join()
+- Everything about HashSet
+- 
