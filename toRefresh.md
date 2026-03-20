@@ -7,4 +7,4 @@ As you work through this exercise, write down anything that you needed to look u
 - Java Arrays
 - String.join()
 - Everything about HashSet
-- 
+- Everything about HashMap

@@ -1,19 +1,21 @@
-
+import java.util.HashMap;
 
 public class MapPractice {
   public static void main(String[] args) {
     // Create a HashMap with String keys and Integer values and
     // assign it to a variable of type Map
-
+    HashMap<String, Integer> bank = new HashMap<>();
     // Put 3 different key/value pairs in the Map
     // (it's OK to do this one-by-one)
-
+    bank.put("robert", 10000);
+    bank.put("rich guy", 999999);
+    bank.put("kelton", 100);
     // Get the value associated with a given key in the Map
-
+    System.out.println(bank.get("kelton"));
     // Find the size (number of key/value pairs) of the Map
-
+    System.out.println(bank.size());
     // Replace the value associated with a given key (the size of the Map shoukld not change)
-
+    bank.put("kelton", 101);
     // Check whether the Map contains a given key
 
     // Check whether the Map contains a given value
