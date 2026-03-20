@@ -5,3 +5,4 @@ As you work through this exercise, write down anything that you needed to look u
 - ArrayLists
 - Collections library
 - Java Arrays
+- String.join()
