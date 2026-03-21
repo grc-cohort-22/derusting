@@ -31,6 +31,10 @@ public class MapPractice {
     boolean containsValue = myMap.containsValue(3);
 
     // Iterate over the keys of the Map, printing each key
+    for(String key : myMap.keySet()){ // using keySet() to grab all keys
+      System.out.println(key);
+    }
+
 
     // Iterate over the values of the map, printing each value
 
