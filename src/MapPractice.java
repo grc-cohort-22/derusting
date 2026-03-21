@@ -22,6 +22,7 @@ public class MapPractice {
     int mapSize = myMap.size(); // Size of the map
 
     // Replace the value associated with a given key (the size of the Map shoukld not change)
+    myMap.put("Second", 22); // Replacing the value for the key "Second"
 
     // Check whether the Map contains a given key
 
