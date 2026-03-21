@@ -19,6 +19,7 @@ public class ListPractice {
     myList.set(1, "replaced value"); // Replacing the element at index 1 with .set()
 
     // Insert a new element at index 0 (the length of the list will change)
+    myList.add(0, "new value here"); // Inserting a new element
 
     // Check whether the list contains a certain string
 
