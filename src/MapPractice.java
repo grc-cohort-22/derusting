@@ -19,6 +19,7 @@ public class MapPractice {
     int valueForKey = myMap.get("Second"); // Getting the value for the key "Second"
 
     // Find the size (number of key/value pairs) of the Map
+    int mapSize = myMap.size(); // Size of the map
 
     // Replace the value associated with a given key (the size of the Map shoukld not change)
 
