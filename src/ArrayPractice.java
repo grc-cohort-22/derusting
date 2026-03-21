@@ -12,7 +12,8 @@ public class ArrayPractice {
     arr[2] = "an";
     arr[3] = "array";
 
-    // Get the value of the array at index 2'
+    // Get the value of the array at index 2
+    String valueAtIndex2 = arr[2]; // Receiving the value at index 2
 
     // Get the length of the array
 
