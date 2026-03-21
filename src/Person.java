@@ -19,6 +19,9 @@ public class Person {
 
 
   // Create a toString method that gives the name and age of the person
+  public String toString(){
+    return "Name: " + name + "\n" + "Age: " + age;
+  }
 
 
   // Implement the below public instance method "birthYear"
