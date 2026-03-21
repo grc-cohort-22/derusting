@@ -16,6 +16,7 @@ public class MapPractice {
     myMap.put("Third", 3);
 
     // Get the value associated with a given key in the Map
+    int valueForKey = myMap.get("Second"); // Getting the value for the key "Second"
 
     // Find the size (number of key/value pairs) of the Map
 
