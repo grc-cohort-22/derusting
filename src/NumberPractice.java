@@ -21,7 +21,7 @@ public class NumberPractice {
     }
 
     // Divide the number by another number using integer division
-
+    int divisionResult = posInt / 5; // Integer division
 
     /*
      * Reminder!
