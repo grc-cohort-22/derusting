@@ -38,6 +38,9 @@ public class ListPractice {
 
     // Iterate over the list using a for-each loop
     // Print each value on a second line
+    for(String item : myList){
+      System.out.println(item);
+    }
 
     /*
      * Usage tip!
