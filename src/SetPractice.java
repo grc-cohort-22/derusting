@@ -20,8 +20,12 @@ public class SetPractice {
     mySet.remove("Second");
 
     // Get the size of the Set
+    int setSize = mySet.size(); // size of the set
 
     // Iterate over the elements of the Set, printing each one on a separate line
+    for(String item : mySet){ // using for-each loop to iterate over the set
+      System.out.println(item);
+    }
 
     /*
      * Warning!
