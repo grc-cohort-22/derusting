@@ -28,6 +28,7 @@ public class MapPractice {
     boolean containsKey = myMap.containsKey("First");
 
     // Check whether the Map contains a given value
+    boolean containsValue = myMap.containsValue(3);
 
     // Iterate over the keys of the Map, printing each key
 
