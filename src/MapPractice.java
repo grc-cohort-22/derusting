@@ -1,5 +1,5 @@
 
-
+import java.util.HashMap;
 public class MapPractice {
   public static void main(String[] args) {
     // Create a HashMap with String keys and Integer values and
