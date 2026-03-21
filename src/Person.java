@@ -49,6 +49,7 @@ public class Person {
 
     // Create another instance of Person with a different name and age and
     // assign it to a different variable
+    Person person2 = new Person("Maxwell", 10); // creating another instance of Person object
 
     // Print the first person
 
