@@ -37,6 +37,10 @@ public class StringPractice {
     String joinedString = String.join(",", myArrayList); // Joining the strings in the list together with commas using .join();
 
     // Check whether two strings are equal
+    String string1 = "Hello";
+    String string2 = "world";
+
+    boolean stringsEqual = string1.equals(string2); // Checking if two strings are equal with .equals()
 
     /*
      * Reminder!
