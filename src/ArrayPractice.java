@@ -16,6 +16,7 @@ public class ArrayPractice {
     String valueAtIndex2 = arr[2]; // Receiving the value at index 2
 
     // Get the length of the array
+    int lengthOfArray = arr.length; // Length of array
 
     // Iterate over the array using a traditional for loop and print out each item
 
