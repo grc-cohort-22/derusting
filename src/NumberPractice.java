@@ -1,6 +1,7 @@
 public class NumberPractice {
   public static void main(String args[]) {
     // Create a float with a negative value and assign it to a variable
+    float negativeFloat = -3.14f; // Creating a float with a negative value
 
     // Create an int with a positive value and assign it to a variable
 
