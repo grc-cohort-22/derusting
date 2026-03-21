@@ -4,6 +4,7 @@ public class NumberPractice {
     float negativeFloat = -3.14f; // Creating a float with a negative value
 
     // Create an int with a positive value and assign it to a variable
+    int posInt = 42; // Creating an int with a positive value
 
     // Use the modulo % operator to find the remainder when the int is divided by 3
 

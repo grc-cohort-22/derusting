@@ -26,9 +26,11 @@ public class MapPractice {
 
     // Check whether the Map contains a given key
     boolean containsKey = myMap.containsKey("First");
+    System.out.println("Map contains key: " + containsKey);
 
     // Check whether the Map contains a given value
     boolean containsValue = myMap.containsValue(3);
+    System.out.println("Map contains value: " + containsValue);
 
     // Iterate over the keys of the Map, printing each key
     for(String key : myMap.keySet()){ // using keySet() to grab all keys
