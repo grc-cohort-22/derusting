@@ -11,6 +11,9 @@ public class MapPractice {
 
     // Put 3 different key/value pairs in the Map
     // (it's OK to do this one-by-one)
+    myMap.put("First", 1);
+    myMap.put("Second", 2);
+    myMap.put("Third", 3);
 
     // Get the value associated with a given key in the Map
 
