@@ -6,14 +6,20 @@
 public class Person {
   // Declare a public String instance variable for the name of the person
   // Declare a private int instance variable for the age of the person
-
+  public String name = "Jeremy Lawrence Phillips II";
+  private int age = 32;
 
   // Create a constructor that takes the name and age of the person
   // and assigns it to the instance variables
-
+  public Person(String name, int age) {
+    this.name = name;
+    this.age = age;
+  }
 
   // Create a toString method that gives the name and age of the person
-
+  public String toString() {
+    return name + ",  " + age;
+  }
 
   // Implement the below public instance method "birthYear"
   // There should NOT be any print statement in this method.
@@ -28,16 +34,18 @@ public class Person {
    * @return The year the person was born
    */
   // (create the instance method here)
-
+public int birthYear(int currentYear) {
+  return currentYear - age;
+}
 
   public static void main(String[] args) {
     // Create an instance of Person
-
+    Person larry = new Person("larry", 30);
     // Create another instance of Person with a different name and age and
     // assign it to a different variable
-
+    Person ron = new Person("ronald", 87);
     // Print the first person
-
+    
     // Print the second person
 
     // Get the name of the first person and store it in a local variable
