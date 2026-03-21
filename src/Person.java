@@ -52,6 +52,7 @@ public class Person {
     Person person2 = new Person("Maxwell", 10); // creating another instance of Person object
 
     // Print the first person
+    System.out.println(person1);
 
     // Print the second person
 
