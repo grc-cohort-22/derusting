@@ -12,6 +12,7 @@ public class ListPractice {
     myList.add("Third");
 
     // Print the element at index 1
+    System.out.println(myList.get(1)); // Getting the element at index 1
 
     // Replace the element at index 1 with a new value
     // (Do not insert a new value. The length of the list should not change)
