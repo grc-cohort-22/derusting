@@ -1,4 +1,6 @@
+  import java.util.Arrays;
 public class ArrayPractice {
+
   public static void main(String[] args) {
     // Create an array of Strings of size 4
 
