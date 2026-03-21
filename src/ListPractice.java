@@ -7,6 +7,9 @@ public class ListPractice {
     ArrayList<String> myList = new ArrayList<>();
 
     // Add 3 elements to the list (OK to do one-by-one)
+    myList.add("First");
+    myList.add("Second");
+    myList.add("Third");
 
     // Print the element at index 1
 
