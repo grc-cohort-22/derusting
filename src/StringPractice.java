@@ -25,6 +25,7 @@ public class StringPractice {
     }
 
     // Create an ArrayList of Strings and assign it to a variable
+    ArrayList<String> myArrayList = new ArrayList<>();
 
     // Add multiple strings to the List (OK to do one-by-one)
 
