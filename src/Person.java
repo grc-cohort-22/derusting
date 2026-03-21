@@ -45,6 +45,7 @@ public class Person {
 
   public static void main(String[] args) {
     // Create an instance of Person
+    Person person1 = new Person("Jaron", 19); // creating new instance of Person object
 
     // Create another instance of Person with a different name and age and
     // assign it to a different variable
