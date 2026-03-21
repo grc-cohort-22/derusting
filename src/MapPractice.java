@@ -34,9 +34,10 @@ public class MapPractice {
     for(String key : myMap.keySet()){ // using keySet() to grab all keys
       System.out.println(key);
     }
-
-
     // Iterate over the values of the map, printing each value
+    for(Integer value : myMap.values()) { // using values() to grab all values, with Integer type
+      System.out.println(value);
+    }
 
     // Iterate over the entries in the map, printing each key and value
 
