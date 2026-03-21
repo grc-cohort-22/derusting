@@ -66,6 +66,7 @@ public class Person {
     int birthYear = person1.birthYear(2025);
 
     // In a separate statement, print the local variable holding the birth year.
+        System.out.println("Birth year of " + name1 + ": " + birthYear);
 
     /**
      * Terminology!
