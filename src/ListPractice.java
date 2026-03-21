@@ -22,9 +22,12 @@ public class ListPractice {
     myList.add(0, "new value here"); // Inserting a new element
 
     // Check whether the list contains a certain string
+    boolean containsString = myList.contains("First"); // Checking if the list contains "First"
+    System.out.println("List contains a string: " + containsString);
 
     // Iterate over the list using a traditional for-loop.
     // Print each index and value on a separate line
+
 
     // Sort the list using the Collections library
 
