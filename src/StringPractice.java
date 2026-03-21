@@ -17,6 +17,9 @@ public class StringPractice {
     boolean checkSubstring = fiveLetterString.contains("llo");
 
     // Iterate over the characters of the string, printing each one on a separate line
+    for(int i = 0; i < fiveLetterString.length(); i++){
+      System.out.println(fiveLetterString.charAt(i)); // using charAt to print each index
+    }
 
     // Create an ArrayList of Strings and assign it to a variable
 
