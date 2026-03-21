@@ -13,6 +13,8 @@ public class SetPractice {
     mySet.add("Third");
 
     // Check whether the Set contains a given String
+    boolean containsString = mySet.contains("Second"); // checking if a given string exists in set
+    System.out.println("Set contains string: " + containsString);
 
     // Remove an element from the Set
 
