@@ -1,4 +1,7 @@
-public class StringPractice {
+import java.util.ArrayList;
+
+public class StringPractice {  
+  
   public static void main(String[] args) {
     // Create a string with at least 5 characters and assign it to a variable
     String fiveLetterString = "Hello";
