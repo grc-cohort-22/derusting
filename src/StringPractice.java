@@ -4,8 +4,11 @@ public class StringPractice {
     String fiveLetterString = "Hello";
 
     // Find the length of the string
+    fiveLetterString.length();
+
 
     // Concatenate (add) two strings together and reassign the result
+    String newString = fiveLetterString + "World"; // Concatenating two strings together
 
     // Find the value of the character at index 3
 
