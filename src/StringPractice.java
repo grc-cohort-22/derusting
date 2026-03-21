@@ -14,6 +14,7 @@ public class StringPractice {
     char charAtIndex3 = fiveLetterString.charAt(3); // Getting the character at index 3
 
     // Check whether the string contains a given substring (i.e. does the string have "abc" in it?)
+    boolean checkSubstring = fiveLetterString.contains("llo");
 
     // Iterate over the characters of the string, printing each one on a separate line
 
