@@ -28,6 +28,9 @@ public class StringPractice {
     ArrayList<String> myArrayList = new ArrayList<>();
 
     // Add multiple strings to the List (OK to do one-by-one)
+    myArrayList.add("First");
+    myArrayList.add("Second");
+    myArrayList.add("Third");
 
     // Join all of the strings in the list together into a single string separated by commas
     // Use a built-in method to achieve this instead of using a loop
