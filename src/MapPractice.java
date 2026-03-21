@@ -25,6 +25,7 @@ public class MapPractice {
     myMap.put("Second", 22); // Replacing the value for the key "Second"
 
     // Check whether the Map contains a given key
+    boolean containsKey = myMap.containsKey("First");
 
     // Check whether the Map contains a given value
 
