@@ -12,6 +12,10 @@ public class Person {
 
   // Create a constructor that takes the name and age of the person
   // and assigns it to the instance variables
+  public Person(String name, int age){
+    this.name = name;
+    this.age = age;
+  }
 
 
   // Create a toString method that gives the name and age of the person
