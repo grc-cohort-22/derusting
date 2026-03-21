@@ -11,6 +11,7 @@ public class StringPractice {
     String newString = fiveLetterString + "World"; // Concatenating two strings together
 
     // Find the value of the character at index 3
+    char charAtIndex3 = fiveLetterString.charAt(3); // Getting the character at index 3
 
     // Check whether the string contains a given substring (i.e. does the string have "abc" in it?)
 
