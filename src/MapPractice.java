@@ -17,15 +17,22 @@ public class MapPractice {
     // Replace the value associated with a given key (the size of the Map shoukld not change)
     bank.put("kelton", 101);
     // Check whether the Map contains a given key
-
+    bank.containsKey("rich guy");
     // Check whether the Map contains a given value
-
+    bank.containsValue(2);
     // Iterate over the keys of the Map, printing each key
-
+    for (String id : bank.keySet()) {
+      System.out.println(id);
+    }
     // Iterate over the values of the map, printing each value
-
+    for (String id : bank.keySet()) {
+      System.out.println(bank.get(id));
+    }
     // Iterate over the entries in the map, printing each key and value
-
+    for (String id : bank.keySet()) {
+      System.out.print(id + " : ");
+      System.out.println(bank.get(id));
+    }
     /*
      * Usage tip!
      * 
