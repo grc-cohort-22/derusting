@@ -55,6 +55,7 @@ public class Person {
     System.out.println(person1);
 
     // Print the second person
+    System.out.println(person2);
 
     // Get the name of the first person and store it in a local variable
 
