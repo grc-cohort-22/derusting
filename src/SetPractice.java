@@ -17,6 +17,7 @@ public class SetPractice {
     System.out.println("Set contains string: " + containsString);
 
     // Remove an element from the Set
+    mySet.remove("Second");
 
     // Get the size of the Set
 
